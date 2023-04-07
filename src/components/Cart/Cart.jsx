@@ -3,7 +3,7 @@ import './Cart.css'
 
 const Cart = (props) => {
     const { cart } = props;
-    console.log(cart);
+    // console.log(cart);
     let total = 0;
     let totalShipping = 0;
     let tax = 10;
@@ -19,7 +19,7 @@ const Cart = (props) => {
         <div className="cart-wrapper">
             <div className="cart-container">
                 <h4>Order Summary</h4>
-                <p>Selected Items: {cart.length}</p>
+                <p>Selected Items: {cart.quantity}</p>
                 <p>Total Price: ${total}</p>
                 <p>Total Shipping: ${totalShipping}</p>
                 <p>Tax:${totalTax.toFixed(2)}</p>
