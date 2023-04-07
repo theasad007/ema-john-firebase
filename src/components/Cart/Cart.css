@@ -1,0 +1,17 @@
+.cart-container {
+    position: sticky;
+    top: 50px;
+}
+.cart-wrapper {
+    background: #FFE0B3;
+    padding: 20px;
+}
+.cart-container p {
+    margin: 10px 0;
+}
+.grandTotal {
+    display: inline-block;
+    border-top: 1px solid lightsalmon;
+    margin: 20px;
+    padding-top: 10px;
+}
